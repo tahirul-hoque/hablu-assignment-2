@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hotel Reservation</title>
+</head>
+<body>
+    <section class="banner">
+        
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li id="home"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li id="logo">Hotel <br>logo</li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <pre style="font-family: Arial, Helvetica, sans-serif;">Discover Extraordinary 
+Comfort in Hotels</pre>
+    </section>
+
+    <section class="booking">
+        <p id="title">Book a Room</p>
+        <p id="description">Discover the perfect space for you</p>
+    <div class="booking-form">
+        <div class="date">
+            <p>Date</p>
+            <button>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                Check available
+            </button>
+    </div>
+
+        <div class="person">
+            <p>Person</p>
+            <button>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                
+                <label for="adult">Adults</label>
+            <select name="adults" id="adult" style="border: none; background-color: transparent;">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <i class="fa fa-child" aria-hidden="true"></i>
+            <label for="children">Children</label>
+            <select name="children" id="children" style="border: none; background-color: transparent;">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            </button>
+        </div>
+
+        <div class="booking-button">
+            <button>
+                BOOK NOW
+            </button>
+        </div>
+    </div>    
+    </section>
+
+    <section class="photo-gallery">
+        <div class="gallery-item tall">
+            <img src="Rectangle 6.jpg" alt="Hotel Room">
+            <p class="gallery-title">Rooms</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rectangle 8.jpg" alt="Dining">
+            <p class="gallery-title">Dining</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rectangle 10.jpg" alt="Facilities">
+            <p class="gallery-title">Service & Facilities</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rectangle 9.jpg" alt="Meetings">
+            <p class="gallery-title">Conferences & Meetings</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Rectangle 11.jpg" alt="Weddings">
+            <p class="gallery-title">Wedding Package</p>
+        </div>
+    </section>
+
+    <section class="offer-section">
+        <div class="offer-description">
+                <p id="p-offer">Special Offers</p>
+            <div class="p-des">
+                <p>Best offer of the month</p>
+                <span style="font-size: 1.5rem; color: #65aef2;">View all</span>
+            </div>
+            <p>Experience Fantastic Benefits and Obtain Better Rates When You <br>Make a Direct Booking on Our Official Website</p>
+        </div>
+
+        <div class="offer-cards">
+            <div class="honeymoon">
+                <img src="Rectangle 13.jpg" alt="">
+                <div class="honeymoon-description">
+                    <p id="room-tag">Room</p>
+                        <div class="honey-tag">
+                            <p style="color: #000; font-size: 2rem; font-weight: 600;">honeymoon</p>
+                            <i class="fa fa-user" aria-hidden="true"> 2</i>
+                        </div>
+                    <p id="honey-des">Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+                </div>
+                <p id="offer-price">$699 <span style="font-size: 1rem;">/night</span></p>
+            </div>
+
+            <div class="honeymoon">
+                <img src="Rectangle 113.jpg" alt="">
+                <div class="honeymoon-description">
+                    <p id="room-tag">Room</p>
+                        <div class="honey-tag">
+                            <p style="color: #000; font-size: 2rem; font-weight: 600;">Meetings</p>
+                            <i class="fa fa-user" aria-hidden="true"> 30</i>
+                        </div>
+                    <p id="honey-des">Experience an Exclusively Private Environment to Boost Your Productivity</p>
+                </div>
+                <p id="offer-price">$999 <span style="font-size: 1rem;">/night</span></p>
+            </div>
+
+            <div class="honeymoon">
+                <img src="Rectangle 1113.jpg" alt="">
+                <div class="honeymoon-description">
+                    <p id="room-tag">Dining</p>
+                        <div class="honey-tag">
+                            <p style="color: #000; font-size: 2rem; font-weight: 600;">Romantic Dining</p>
+                            <i class="fa fa-user" aria-hidden="true"> 2</i>
+                        </div>
+                    <p id="honey-des">Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+                </div>
+                <p id="offer-price">$499 <span style="font-size: 1rem;">/night</span></p>
+            </div> 
+        </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!--Footer-->
+
+    <section class="footer">
+
+        <div class="footer-contact">
+            <p id="footer-title">Newsletter & Special Promo</p>
+                <div class="email-form">
+                    <input type="email" placeholder="Enter your email here" id="email-input">
+                    <button id="subscribe-button">Subscribe</button>
+                </div>
+        </div>
+
+        <div class="footer-links">
+
+            <ul id="footer-links-left">
+                <li>About us</li>
+                <li>Contact</li>
+                <li>Location</li>
+            </ul>
+
+            <ul id="footer-links-middle">
+                <li>FAQ</li>
+                <li>Terms of Use</li>
+                <li>Privacy Policy</li></li>
+            </ul>
+
+            <ul id="footer-links-right">
+                <li>Services & Facilities</li>
+                <li>Careers</li>
+                <li>How to book</li>
+            </ul>
+
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+</body>
+</html>
